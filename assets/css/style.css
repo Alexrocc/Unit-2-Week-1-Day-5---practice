@@ -95,31 +95,68 @@ header div:first-child h3 {
 /* TRENDING SECTION */
 
 #trending-section h3 {
-  margin: 1rem 0 0 1rem;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 1px;
+  font-weight: 500;
+  column-gap: 12px;
+  margin-left: 4em;
+  padding-bottom: 0.7em;
 }
 
-#trending-section > div {
+#trending-section > div:first-of-type {
+  display: block;
+  padding: 2.5rem 0;
+}
+
+#trending-section > div:first-of-type > div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 2em;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #80808033;
 }
 
-#trending-section > div > div {
+#trending-section > div > div > div {
   display: flex;
+  margin-bottom: 2rem;
+  align-items: baseline;
+  width: 375px;
+}
+
+.number {
+  opacity: 10%;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 2em;
+  font-weight: 900;
 }
 
 .trending {
   display: flex;
-  width: 375px;
   flex-direction: column;
+}
+.trending > div:first-of-type {
+  margin-bottom: 1rem;
 }
 .trending h5 {
   margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.trending > div:nth-of-type(2) span {
+  font-size: 0.8rem;
+  color: gray;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 0px;
 }
 
 .author {
   font-size: 0.8rem;
+  vertical-align: text-top;
 }
 
 .avatar {
