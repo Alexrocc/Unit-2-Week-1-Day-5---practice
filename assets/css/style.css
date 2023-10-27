@@ -58,7 +58,7 @@ header {
   background-color: #ffc017;
   border-bottom: 1px solid black;
   display: flex;
-  padding: 5.7rem 5.7rem;
+  padding: 5.7rem 0 5.7rem 20rem;
   position: relative;
 }
 
@@ -107,7 +107,8 @@ header div:first-child h3 {
   line-height: 1px;
   font-weight: 500;
   column-gap: 12px;
-  margin-left: 4em;
+  margin-left: 17em;
+
   padding-bottom: 0.7em;
 }
 
@@ -120,6 +121,7 @@ header div:first-child h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 0 11em;
   border-bottom: 1px solid #80808033;
 }
 
@@ -127,7 +129,7 @@ header div:first-child h3 {
   display: flex;
   margin-bottom: 2rem;
   align-items: baseline;
-  width: 375px;
+  width: 400px;
 }
 
 .number {
