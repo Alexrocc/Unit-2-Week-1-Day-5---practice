@@ -24,6 +24,7 @@ nav {
   padding: 1.1rem 21rem;
   justify-content: flex-end;
   border-bottom: 1px solid black;
+  transition: background-color 1s;
 }
 
 nav div {
@@ -48,6 +49,7 @@ nav button {
   color: white;
   padding: 12px 19px;
   font-size: 14px;
+  transition: background-color 1s;
 }
 
 /* HEADER */
@@ -209,6 +211,7 @@ article {
   display: flex;
   height: fit-content;
   margin-bottom: 3rem;
+  justify-content: space-between;
 }
 
 .img-container > img {
@@ -229,7 +232,7 @@ article h2 {
 }
 
 article h3 {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: #464545b4;
   font-weight: 500;
 }
