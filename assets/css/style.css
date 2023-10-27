@@ -259,7 +259,7 @@ article h3 + div {
   height: 25px;
   position: absolute;
   right: 25px;
-  bottom: 5px;
+  bottom: 0;
   opacity: 75%;
 }
 /* ASIDE */
