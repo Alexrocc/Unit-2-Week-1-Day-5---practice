@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  padding-top: 76.19px;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #ffc017;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  width: 100%;
+  padding: 1.1rem 21rem;
+  justify-content: flex-end;
+  border-bottom: 1px solid black;
+}
+
+nav div {
+  flex-grow: 10;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  column-gap: 13px;
+  align-items: center;
+  font-size: 14px;
+  color: #191919;
+}
+
+nav button {
+  border: none;
+  border-radius: 20px;
+  background-color: #191919;
+  color: white;
+  padding: 12px 19px;
+  font-size: 14px;
+}
+
+/* HEADER */
+
+header {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  display: flex;
+  padding: 5.7rem 5.7rem;
+  position: relative;
+}
+
+header div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+header div h1 {
+  font-size: 7rem;
+  font-weight: 400;
+  font-family: "Spectral", serif;
+  letter-spacing: -6.6px;
+  margin-bottom: 2rem;
+}
+
+header button {
+  border: none;
+  border-radius: 40px;
+  background-color: #191919;
+  color: white;
+  padding: 10px 55px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+header div:first-child h3 {
+  color: #191919;
+  font-size: 1.5rem;
+  margin-bottom: 2.4rem;
+}
+
+.svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* TRENDING SECTION */
+
+#trending-section h3 {
+  margin: 1rem 0 0 1rem;
+}
+
+#trending-section > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+
+#trending-section > div > div {
+  display: flex;
+}
+
+.trending {
+  display: flex;
+  width: 375px;
+  flex-direction: column;
+}
+.trending h5 {
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 0.8rem;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.square {
+  border-radius: 4px;
+}
+
+.avatar img {
+  width: 100%;
+}
