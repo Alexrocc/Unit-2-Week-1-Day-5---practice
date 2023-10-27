@@ -145,7 +145,7 @@ header div:first-child h3 {
   font-weight: 700;
 }
 
-.trending > div:nth-of-type(2) span {
+.trending > span {
   font-size: 0.8rem;
   color: gray;
   display: flex;
@@ -157,6 +157,10 @@ header div:first-child h3 {
 .author {
   font-size: 0.8rem;
   vertical-align: text-top;
+  font-weight: 500;
+}
+.author > span {
+  color: gray;
 }
 
 .avatar {
@@ -172,4 +176,11 @@ header div:first-child h3 {
 
 .avatar img {
   width: 100%;
+}
+
+/* Second content section */
+
+main section + div {
+  display: flex;
+  flex-direction: column;
 }
