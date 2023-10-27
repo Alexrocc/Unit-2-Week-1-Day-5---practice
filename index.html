@@ -9597,11 +9597,12 @@
       const headerBtn = document.getElementsByTagName("button")[1];
       const navBar = document.getElementsByTagName("nav")[0];
       const navButton = document.getElementsByTagName("button")[0];
-      headerBtn.addEventListener("scroll", (e) => {
+      headerBtn.addEventListener("scroll", colorChange);
+      function colorChange() {
         navBar.style.backgroundColor = "white";
 
         navButton.style.backgroundColor = "#1a8917";
-      });
+      }
     </script>
   </body>
 </html>
