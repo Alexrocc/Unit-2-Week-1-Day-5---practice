@@ -183,4 +183,13 @@ header div:first-child h3 {
 main section + div {
   display: flex;
   flex-direction: column;
+  padding-top: 3rem;
+}
+
+article {
+  width: 700px;
+}
+
+aside {
+  width: 400px;
 }
