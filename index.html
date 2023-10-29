@@ -32,7 +32,7 @@
           Discover stories, thinking, and expertise <br />
           from writers on any topic.
         </h3>
-        <button onscroll="colorChange()">Start reading</button>
+        <button>Start reading</button>
       </div>
       <div class="svg">
         <svg
@@ -9429,7 +9429,7 @@
                 </div>
                 <span class="author">David Rodenas, Ph. D. </span>
               </div>
-              <h2>Don’t Screw Up, You Will Be Found Guilty</h2>
+              <h2>Don't Screw Up, You Will Be Found Guilty</h2>
               <h3>
                 Software Engineer, yours is the right to produce high-quality
                 work at all times, also the liability.
@@ -9512,7 +9512,7 @@
               </div>
               <h2>What I Overheard as an Escape Room Actor</h2>
               <h3>
-                Lock a group of people in a room and you’ll witness some
+                Lock a group of people in a room and you'll witness some
                 surprising confessions
               </h3>
               <div>
@@ -9593,16 +9593,6 @@
         </aside>
       </div>
     </main>
-    <script>
-      const headerBtn = document.getElementsByTagName("button")[1];
-      const navBar = document.getElementsByTagName("nav")[0];
-      const navButton = document.getElementsByTagName("button")[0];
-      headerBtn.addEventListener("scroll", colorChange);
-      function colorChange() {
-        navBar.style.backgroundColor = "white";
-
-        navButton.style.backgroundColor = "#1a8917";
-      }
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
